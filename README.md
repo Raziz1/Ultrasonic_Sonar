@@ -16,6 +16,10 @@ Creating a sonar device using a HC-04 ultrasonic sensor on the Raspberry PI
 * This project creates a ultrasonic sonar device that can scan an area within 180 degrees of motion. 
 * The ultrasonic sensor emits a low a sound puls and receives the resulting output pulse. The output pulses width determines the distance it travelled. 
 * In our case it stores 15 distance values across 180 degrees and plots them on a "sonar graph" in relation to its position.
+* For more information and the datasheets on the SG90 servo you can visit [components101 servo](https://components101.com/servo-motor-basics-pinout-datasheet)
+* For more information and the datasheets on the HC-04 Ultrasonic Sensor you can visit [components101 ultrasonic sensor](https://components101.com/ultrasonic-sensor-working-pinout-datasheet)
+* This project can also be done using an Arduino board as well as the Processing library to graphically display the information
+
 
 ## Schematics ⚡
 

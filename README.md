@@ -48,11 +48,13 @@ Creating a sonar device using a HC-04 ultrasonic sensor on the Raspberry PI
 
 <br>
 
+
+## Notes 
+
 <p> 
   <img width=45% height=45% align='Right' src="https://github.com/Raziz1/Ultrasonic_Sonar/blob/main/images/Scope_graph.png? raw=true">
 </p>
 
-## Notes 
 * asdf
 * asfd
 * asfd

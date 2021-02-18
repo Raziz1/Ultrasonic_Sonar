@@ -11,3 +11,8 @@ Creating a sonar device using a HC-04 ultrasonic sensor on the Raspberry PI
 * Time
 * Math
 * [pygame](https://pypi.org/project/pygame/)
+
+## Overview
+* This project creates a ultrasonic sonar device that can scan an area within 180 degrees of motion. 
+* The ultrasonic sensor emits a low a sound puls and receives the resulting output pulse. The output pulses width determines the distance it travelled. 
+* In our case it stores 15 distance values across 180 degrees and plots them on a "sonar graph" in relation to its position.

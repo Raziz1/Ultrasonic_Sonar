@@ -11,10 +11,6 @@ Creating a sonar device using a HC-04 ultrasonic sensor on the Raspberry PI
 * [HC-04 Ultrasonic Sensor](https://www.amazon.ca/Sainsmart-HC-SR04-Ranging-Detector-Distance/dp/B004U8TOE6/ref=sr_1_2?dchild=1&keywords=ultrasonic+sensor+hc-04&qid=1613609674&sr=8-2)
 * [SG90 Micro-Servo](https://www.amazon.ca/Miuzei-Helicopter-Airplane-Remote-Controls/dp/B07Z16DWGW/ref=sr_1_2_sspa?dchild=1&keywords=sg90+servo&qid=1613609758&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExNTMyTzRTWFc0R05aJmVuY3J5cHRlZElkPUEwODc5NzYxMzVSNVdNQ1NVR1owOCZlbmNyeXB0ZWRBZElkPUEwODI3NzczNUQyVkxHQkRSSlBMJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==)
 
-<p> 
-  <img width=384 height=384 align='Right' src="https://github.com/Raziz1/Ultrasonic_Sonar/blob/main/images/Scope_graph.png? raw=true">
-</p>
-
 ## Libraries 📚
 * [RPI.GPIO](https://pypi.org/project/RPi.GPIO/)
 * Time
@@ -49,3 +45,15 @@ Creating a sonar device using a HC-04 ultrasonic sensor on the Raspberry PI
 | Ground        | Ground        | Ground        |   
 | GPIO0         | GPIO17        | Trig          | 
 | GPIO1         | GPIO18        | Echo          | 
+
+<br>
+
+<p> 
+  <img width=45% height=45% align='Right' src="https://github.com/Raziz1/Ultrasonic_Sonar/blob/main/images/Scope_graph.png? raw=true">
+</p>
+
+## Notes 
+* asdf
+* asfd
+* asfd
+* adsf

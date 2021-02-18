@@ -1,6 +1,11 @@
 # Ultrasonic_Sonar 🔊📡
 Creating a sonar device using a HC-04 ultrasonic sensor on the Raspberry PI
 
+<p> 
+  <img width=512 height=512 align='Right' src="https://github.com/Raziz1/Ultrasonic_Sonar/blob/main/images/Ultrasonic_Sonar_Scope.png? raw=true">
+</p>
+
+
 ## Parts 🛠
 * [Raspberry Pi 4 Model B](https://www.amazon.ca/Raspberry-Pi-Computer-Model-4GB/dp/B07W4JM192/ref=sr_1_7?dchild=1&keywords=raspberry+pi+4&qid=1607186145&sr=8-7)
 * [HC-04 Ultrasonic Sensor](https://www.amazon.ca/Sainsmart-HC-SR04-Ranging-Detector-Distance/dp/B004U8TOE6/ref=sr_1_2?dchild=1&keywords=ultrasonic+sensor+hc-04&qid=1613609674&sr=8-2)

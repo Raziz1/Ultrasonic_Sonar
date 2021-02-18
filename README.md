@@ -28,6 +28,10 @@ Creating a sonar device using a HC-04 ultrasonic sensor on the Raspberry PI
 
 ## Schematics ⚡
 
+<p> 
+  <img width=1024 height=464 align='Right' src="https://github.com/Raziz1/Ultrasonic_Sonar/blob/main/images/Schematics2.png? raw=true">
+</p>
+
 ### SG90 Micro-Servo Wiring
 |   **Raspberry PI Board**  | **GPIO Extension Board** | **SG90 Micro-Servo**|
 | ------------- |:-------------:|:-------------:|

@@ -57,4 +57,4 @@ Creating a sonar device using a HC-04 ultrasonic sensor on the Raspberry PI
 
 * As previously mentioned python is a little slow when it comes to GUI's so I would personally recommend trying Processing (Java Graphics Library) to create a sleeker sonar scope GUI
 * Secondly the code can be configured so that both the servo and ultrasonic sensor are polling rapidly to return live data rather than points.
-    * This can be done by looping the servo back and forth between 0 and 180 degrees. Furthermore the maximum polling speed of the ultrasonic sensor is around 50 times per second which could result in smoother shapes being displayed across the entire 180 degrees
+    * This can be done by looping the servo back and forth between 0 and 180 degrees. Furthermore, the maximum polling speed of the ultrasonic sensor is around 50 times per second which could result in smoother shapes being displayed across the entire 180 degrees

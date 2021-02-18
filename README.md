@@ -25,6 +25,9 @@ Creating a sonar device using a HC-04 ultrasonic sensor on the Raspberry PI
 * For more information and the datasheets on the HC-04 Ultrasonic Sensor you can visit [components101 ultrasonic sensor](https://components101.com/ultrasonic-sensor-working-pinout-datasheet)
 * This project can also be done using an Arduino board as well as the Processing library to graphically display the information
 
+<p> 
+  <img width=384 height=384 align='Right' src="https://github.com/Raziz1/Ultrasonic_Sonar/blob/main/images/Scope_graph.png? raw=true">
+</p>
 
 ## Schematics ⚡
 

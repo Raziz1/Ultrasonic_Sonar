@@ -34,6 +34,8 @@ p.start(0)# starting duty cycle ( it set the servo to 0 degree
 
 #Initialize array of points
 point=[0]*12
+
+
 #Initalize scanner arm
 angle=0
 radius=0
@@ -47,7 +49,7 @@ def SetAngle(angle):
     duty = angle / 18 + 2
     GPIO.output(servo, True)
     p.ChangeDutyCycle(duty)
-    time.sleep(1)
+    time.sleep(1) #To increase the servo between angle intervals reduce this sleep function
     GPIO.output(servo, False)
     p.ChangeDutyCycle(0) 
     
@@ -116,7 +118,7 @@ def main():
         for i in range (len(point)):
             #Convert from radians to degrees 
             y=int(math.sin((i*15)*math.pi/180)*point[i])
-            x=int(math.cos((i*15)*math.pi/180)*point[i])
+            x=int(math.cos((i*15)*math.pi/180)*point[i]) #Change "i*15" when increasing the number of points stored
             #print(x,",",y)
             #Draw the points
             pygame.draw.circle(main_surface,point_color,(int(surface_sx/2)+(x),int(surface_sy/2)+(y)),4,0)
@@ -141,7 +143,7 @@ if __name__ == "__main__":
         SetAngle(0)
         # For the size of points rotate 15 degrees & calculate distance
         for l in range (len(point)):
-            SetAngle(l*15)
+            SetAngle(l*15) #Change this number when increasing the points stored
             loop()
         #Stop the GPIO pins and cleanup 
         p.stop()
